@@ -44,3 +44,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## 파일 구조 (src 안에 구조)
+
+assets : css, img 같은 리소스가 들어있을 폴더
+component : 작은 요소들이 들어가는 곳(header, footer, 특정 기능을 하는 UI 같은 것들이 들어있음)
+redux : 전역 변수들을 관리하는 파일이 들어있는 곳.
+routes : 페이지 라우팅을 위한 파일이 들어있는 곳.
+service : 서버와 통신을 위한 함수/클래스들이 들어있는 곳.
+view : 페이지 컴포넌트가 들어있는 곳. (login, register, main 페이지 역할을 할 컴포넌트들이 있음)
+index.tsx : 컴포넌트
